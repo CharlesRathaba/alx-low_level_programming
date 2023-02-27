@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - causes an infinite loop
- * Return: 0 (success)
+ * main - Entry point
+ *
+ * Description: causes an infinite loop
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
