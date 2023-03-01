@@ -1,5 +1,5 @@
+#include "main.h"
 #include <stdio.h>
-#include "main.h>
 
 /**
  * print_array - Prints a given number of elements of an array
