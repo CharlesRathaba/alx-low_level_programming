@@ -9,5 +9,5 @@
 
 int _putchar(char c)
 {
-    return(fputc(c, stdout));
+	return(fputc(c, stdout));
 }
