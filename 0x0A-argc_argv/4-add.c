@@ -7,7 +7,7 @@
  * @argc: Argument count/number.
  * @argv: Argument vector , array of pointers to the arguments.
  * Return: If one of the numbers contains symbols that are non-digits return 1.
- * 	 else return 0
+ *         else return 0
  */
 
 int main(int argc, char *argv[])
