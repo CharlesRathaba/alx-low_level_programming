@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * argstostr - concatenates all the arguments of the program arguments sepreated by newline
+ * argstostr - concatenates all the arguments of the program 
+ *             sepreated by newline
  * @ac: number of arguments
  * @av: double pointer(array pointer) to arguments
  *
