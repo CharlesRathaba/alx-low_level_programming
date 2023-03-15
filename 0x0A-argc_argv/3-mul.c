@@ -5,6 +5,7 @@
  *  main - Prints the multiplication of two numbers, followed by a new line.
  *  @argc: Argument count/number.
  *  @argv: Argument vector , array of pointers to the arguments.
+ *
  *  Return: If the program receives two arguments - 0.
  *  	    If the program does not receive two arguments - 1.
  */
