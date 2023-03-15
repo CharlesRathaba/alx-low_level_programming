@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 		join[copy++] = *s1++;
 
 	while (*s2 != '\0')
-		join[copy++] = s2[i];
+		join[copy++] = *s2++;
 
 	join[copy] = '\0';
 
