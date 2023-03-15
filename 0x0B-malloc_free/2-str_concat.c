@@ -26,7 +26,7 @@ char *str_concat(char *s1, char *s2)
 	for (i = 0; s1[i] || s2[i]; i++)
 		length++;
 
-	join = malloc(sizeof(char) * length);
+	join = malloc(sizeof(char) * (length + 1));
 	if (join == NULL)
 		return (NULL);
 
@@ -35,6 +35,7 @@ char *str_concat(char *s1, char *s2)
 
 	for (i = 0; s2[i]; i++)
 		join[copy++] = s2[i];
+	join[copy] = '\0';
 
 	return (join);
 }
