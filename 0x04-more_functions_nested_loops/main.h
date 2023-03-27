@@ -1,4 +1,4 @@
-/**
+i/**
  * This is a headerfile containg declarations
  * for prototype functions funtions define in 0x02-functions_nested_loops
  * and 0x04-more_functions_nested_loops tasks
@@ -32,4 +32,4 @@ void print_triangle(int size);
 
 void print_number(int n);
 
-#endif // MAIN_H
+#endif MAIN_H
