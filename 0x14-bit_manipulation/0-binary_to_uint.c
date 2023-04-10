@@ -18,7 +18,7 @@ unsigned int binary_to_uint(const char *b)
 	for (i = 0; b[i] != '\0'; i++)
 	{
 		if (b[i] == '0')
-			num *= 2;
+			num = num * 2;
 		else if (b[i] == '1')
 			num = num * 2 + 1;
 		else
