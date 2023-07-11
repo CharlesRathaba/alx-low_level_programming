@@ -1,3 +1,9 @@
+#include "main.h"
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+
 /**
  * _strlen - length of a string
  * @str: pointer to string
